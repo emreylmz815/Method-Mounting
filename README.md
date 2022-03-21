@@ -1,3 +1,14 @@
+Each component has a unique lifetime. Just as people are born, grow and die, components are defined at the initial stage, rendered, experience some things during the rendering stage, and are removed when another page is passed or no longer needed. This process is called the life cycle.
+
+#In this example we will see Mounting methods. The methods used in the past and still used were used.
+
+render()
+getDerivedStateFromProps()
+componentDidMount()-OLD
+componentWillMount()-OLD
+
+In the example, let's determine a random number between 1 and 10 and move this number to the sub-components as a prop and extract an emoji according to the incoming value. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
